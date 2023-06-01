@@ -19,6 +19,15 @@
 }
 	
 </style>
+<script>
+const watermelon = document.querySelector("#Watermelon-1");
+
+function logId() {
+	console.log(this.id)
+}
+
+watermelon.addEventListener("click", logId);
+</script>
 <path id="Green-part" class="st0" d="M18.4,24l1.4,4.5c0.2,1.1-0.6,2.2-1.7,2.6L17,31.5l-0.3,1c-0.4,1.3-1.4,2.3-2.7,2.7
 	c-1.2,0.4-3.7-2.2-4.7-2.1L0,42.4c11.8,11,30.2,10.8,41.7-0.7S53.4,11.8,42.4,0L18.4,24z"/>
 <path id="Red-part" class="st1" d="M37.1,5.3L18.4,24l1.4,4.5c0.2,1.1-0.6,2.2-1.7,2.6L17,31.5l-0.3,1c-0.4,1.3-1.4,2.3-2.7,2.7
