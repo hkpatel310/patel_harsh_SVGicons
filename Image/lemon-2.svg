@@ -18,6 +18,15 @@
        }
 	   
    </style>
+   <script>
+const lemons = document.querySelector("#lemon-2");
+
+function logId() {
+	console.log(this.id)
+}
+
+lemons.addEventListener("click", logId);
+</script>
    <g>
        <path id="Small-out" class="st0" d="M55,31H13c0,11.6,9.4,21,21,21S55,42.6,55,31z"/>
        <path id="Small-lemon" class="st1" d="M51,31H17c0,9.4,7.6,17,17,17S51,40.4,51,31z"/>
